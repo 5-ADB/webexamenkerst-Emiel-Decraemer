@@ -1,0 +1,90 @@
+/* algemeen */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* einde algemeen */
+
+/* header */
+
+header {
+}
+
+header nav .navbar img {
+    height: 60px;
+}
+
+header nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav .navbar ul li {
+    padding: 20px;
+    font-size: 20px;
+}
+
+header nav .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/* einde header */
+
+/* main */
+
+/* mid main */
+main .mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+main .mid .tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 700px;
+    padding: 100px;
+    padding-right: 300px;
+}
+
+main .mid img {
+    height: 300px;
+    padding-right: 10px;
+}
+
+/* einde midden main */
+
+/* bottom main */
+
+main .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+main .bottom .gridbottom{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    column-gap: 30px;
+}
+
+main .bottom img {
+    height: 300px;
+}
+
+/* einde bottom main */
+
+/* einde main */
